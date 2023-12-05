@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.navbar{
+    width: 120rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.logosidebar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sidebar{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.logo{
+    width:120px;
+    height: 56px;
+}
+.logoImage{
+    background-image: url("./images/youtube.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:120px;
+    height: 56px;
+}
+
+.searcharea{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 45.75rem;
+    height: 2.5rem;
+}
+.searcher{
+    display: flex;
+    align-items: center;
+    border-collapse: collapse;
+}
+.magnify{
+    width: 4rem;
+    text-align: center;
+    background-color: #f8f8f8;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid grey ;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    font-size: 1.1rem;
+}
+.searchbox{
+    width: 35rem;
+    height: 2.5rem;
+}
+.searchbox input{
+    width: 100%;
+    height: 100%;
+    border: 1px solid grey ;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.searchbox input::placeholder {
+   padding: 1rem;
+  }
+
+.mic{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+}
+
+.accountarea{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size: 1.2rem;
+}
+.create{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+}
+.notify{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+}
+.account{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-left: 2rem;
+    background-color: #f8f8f8;
+    height: 2rem;
+    width: 2rem;
+}
