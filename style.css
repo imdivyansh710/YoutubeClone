@@ -52,7 +52,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid grey ;
+    border: 1.5px solid #d3d3d3 ;
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
     font-size: 1.1rem;
@@ -64,7 +64,7 @@
 .searchbox input{
     width: 100%;
     height: 100%;
-    border: 1px solid grey ;
+    border: 1.5px solid #d3d3d3;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
 }
@@ -111,3 +111,179 @@
     height: 2rem;
     width: 2rem;
 }
+.main{
+    margin: 1rem;
+    width: 100%;
+    display: flex;
+}
+.leftbar{
+    padding: 1rem;
+    width: 15rem;
+    height:10rem;
+    color: #0f0f0f;
+}
+
+.sidestyle{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 12px;
+    height: 2.5rem;
+}
+.homestyle{
+    background-color: #F2F2F2;
+    border-radius: 1rem;
+}
+.leftbar p{
+    margin-left: 1.5rem;
+}
+.rightbar{
+    width: 100%;
+    height: 100%;
+}
+.topsection{
+    display: flex;
+    justify-content: space-between;
+}
+.topsection button{
+    color: #0f0f0f;
+    height: 2rem;
+    background-color: #F2F2F2;
+    padding: 0px 12px;
+    margin:  0px 0px 0px 12px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 0.6rem;
+    border-style: none;
+}
+.topsection button.all{
+    color: white;
+    background-color: black;
+}
+.moreicon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottomsection{
+    display: flex;
+    flex-wrap: wrap;
+}
+.videobox{
+    height: 19.7rem;
+    width: 19rem;
+    margin-left: 1rem;
+    margin-right:1rem;
+    margin-top: 2rem;
+}
+.videoarea{
+    width: 100%;
+    height: 11rem;
+    border-radius: 1rem;
+}
+.video1{
+    background-image: url(./images/image1.jpg);
+    background-size: cover;
+}
+.video2{
+    background-image: url(./images/image2.jpg);
+    background-size: cover;
+}
+.video3{
+    background-image: url(./images/image3.jpg);
+    background-size: cover;
+}
+.video4{
+    background-image: url(./images/image4.jpg);
+    background-size: cover;
+}
+.video5{
+    background-image: url(./images/image5.jpg);
+    background-size: cover;
+}
+.video6{
+    background-image: url(./images/image6.jpg);
+    background-size: cover;
+}
+.video7{
+    background-image: url(./images/image7.jpg);
+    background-size: cover;
+}
+.video8{
+    background-image: url(./images/image8.jpg);
+    background-size: cover;
+}
+.video9{
+    background-image: url(./images/image9.jpg);
+    background-size: cover;
+}
+.video10{
+    background-image: url(./images/image10.jpg);
+    background-size: cover;
+}
+.video11{
+    background-image: url(./images/image11.jpg);
+    background-size: cover;
+}
+.video12{
+    background-image: url(./images/image12.jpg);
+    background-size: cover;
+}
+.video13{
+    background-image: url(./images/image13.jpg);
+    background-size: cover;
+}
+.video14{
+    background-image: url(./images/image14.jpg);
+    background-size: cover;
+}
+.video15{
+    background-image: url(./images/image15.jpg);
+    background-size: cover;
+}
+.video16{
+    background-image: url(./images/image16.jpg);
+    background-size: cover;
+}
+
+.detail{
+    display:flex;
+    justify-content: flex-start;
+    margin-top: 0.5rem;
+}
+.detail .channel{
+    width: 2.25rem;
+    height: 2.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lavender;
+    border-radius: 50%;
+}
+
+.description{
+    padding: 0.6rem;
+    display:flex;
+    flex-direction: column;
+}
+.description .videotitle h3{
+    font-weight: 800;
+    font-weight: 1.6rem;
+    margin-left: 0.6rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.description .videodescription{
+    padding:0.6rem;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.description .videodescription p{
+    color:#606060;
+    font-size: 14px;
+    padding-top: 0.5rem;
+}
+
